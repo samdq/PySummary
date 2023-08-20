@@ -1,0 +1,17 @@
+<!-- templates/error.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - PySummary API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Error - PySummary API</h1>
+        <p>An error occurred during the API request:</p>
+        <p class="error-message">{{ error }}</p>
+    </div>
+</body>
+</html>

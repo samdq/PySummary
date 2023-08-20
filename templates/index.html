@@ -1,0 +1,28 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PySummary API Documentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PySummary API Documentation</h1>
+        <p>Welcome to the PySummary API! Use the /summarize endpoint to generate text summaries.</p>
+        <h2>Endpoint: /summarize</h2>
+        <p>Submit a POST request with JSON payload containing the text content to be summarized.</p>
+        <p>Example using cURL:</p>
+        <code>curl -X POST -H "Content-Type: application/json" -d '{"text": "Your text content goes here."}' http://127.0.0.1:5000/summarize</code>
+        <p>Optional parameters:</p>
+        <ul>
+            <li><code>length</code> (default: 5): Number of sentences or words in the generated summary</li>
+            <li><code>focus</code> (default: 'sentences'): Specify 'sentences' or 'words' for summary focus</li>
+        </ul>
+        <h2>Response Format</h2>
+        <p>The API responds with a JSON object containing the generated summary:</p>
+        <pre>{"summary": "Generated summary of the text content."}</pre>
+    </div>
+</body>
+</html>
