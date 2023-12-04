@@ -14,6 +14,3 @@ A basic To-Do List web application using HTML, CSS, and JavaScript.
 
 The project is styled using CSS for a clean and user-friendly interface.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
