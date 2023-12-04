@@ -1,12 +1,19 @@
-# reversePython
-A simple Python script to reverse a list using a loop and the reverse() method.
+# Simple To-Do List
 
-```
-arr = [2, 5, 32, 86, 4, 131, 97]
+A basic To-Do List web application using HTML, CSS, and JavaScript.
 
-for i in range(len(arr) - 1, -1, -1):
-    print(arr[i])
-```
+## Usage
 
-This script iterates through the list in reverse order and prints each element.
+1. Open `index.html` in a web browser.
 
+2. Enter a task in the input field and click the "Add" button to add it to the list.
+
+3. Click the "Delete" button next to a task to remove it from the list.
+
+## Styling
+
+The project is styled using CSS for a clean and user-friendly interface.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
