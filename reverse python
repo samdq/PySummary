@@ -1,6 +1,0 @@
-arr = [2,5,32,86,4,131,97]
-for i in range(len(arr)-1, -1, -1):
-    print(arr[i])
-
-#reverse
-arr.reverse()
